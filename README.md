@@ -1,4 +1,4 @@
-# @immowelt/eslint-config-immowelt-es6
+# @immowelt/stylelint-config-immowelt
 
 [![Powered by Immowelt](https://img.shields.io/badge/powered%20by-immowelt-yellow.svg?colorB=ffb200)](https://stackshare.io/immowelt-group/)
 [![Build Status](https://travis-ci.org/ImmoweltGroup/stylelint-config-immowelt.svg?branch=master)](https://travis-ci.org/ImmoweltGroup/stylelint-config-immowelt)
