@@ -17,6 +17,9 @@
 		"config",
 		"immonet"
 	],
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "analyzeCommits": {
       "releaseRules": [
