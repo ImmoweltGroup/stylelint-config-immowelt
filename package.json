@@ -2,7 +2,7 @@
 	"name": "@immowelt/stylelint-config-immowelt",
 	"version": "0.0.0-development",
 	"description": "StyleLint standard config for Immowelt",
-	"license": "DWPL",
+	"license": "MIT",
 	"homepage": "https://github.com/ImmoweltGroup/stylelint-config-immowelt#readme",
 	"bugs": {
 		"url": "https://github.com/ImmoweltGroup/stylelint-config-immowelt/issues"
@@ -20,15 +20,12 @@
 	"scripts": {
 		"release": "semantic-release"
 	},
-	"publishConfig": {
-		"access": "public"
-	},
 	"dependencies": {
 		"stylelint-config-recommended-scss": "^3.2.0",
 		"stylelint-config-standard": "^18.2.0",
 		"stylelint-scss": "^3.2.0"
 	},
 	"devDependencies": {
-		"semantic-release": "^15.9.5"
+		"semantic-release": "^13.4.1"
 	}
 }
