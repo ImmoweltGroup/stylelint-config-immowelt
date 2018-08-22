@@ -20,6 +20,12 @@ Use it in your StyleLint settings.
   "extends": "@immowelt/stylelint-config-immowelt"
 }
 ```
+## Linting Bundle
+
+* [eslint-config-immowelt-es5](https://github.com/ImmoweltGroup/eslint-config-immowelt-es5)
+* [eslint-config-immowelt-es6](https://github.com/ImmoweltGroup/eslint-config-immowelt-es6)
+* [eslint-config-immowelt-react](https://github.com/ImmoweltGroup/eslint-config-immowelt-react)
+* [stylelint-config-immowelt](https://github.com/ImmoweltGroup/stylelint-config-immowelt)
 
 ## License
 
