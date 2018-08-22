@@ -17,6 +17,25 @@
 		"config",
 		"immonet"
 	],
+  "release": {
+    "analyzeCommits": {
+      "releaseRules": [
+        {
+          "type": "BREAKING",
+          "release": "major"
+        },
+        {
+          "type": "FEATURE",
+          "release": "minor"
+        },
+        {
+          "type": "BUGFIX",
+          "release": "patch"
+        }
+      ]
+    },
+    "branch": "master"
+  },
 	"scripts": {
 		"release": "semantic-release"
 	},
