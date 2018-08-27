@@ -6,7 +6,8 @@ module.exports = {
     "stylelint-config-recommended-scss"
   ],
   "plugins": [
-    "stylelint-order"
+    "stylelint-order",
+    "stylelint-no-unsupported-browser-features"
   ],
   "rules": {
     "at-rule-empty-line-before": null,

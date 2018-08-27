@@ -17,38 +17,38 @@
 		"config",
 		"immonet"
 	],
-  "publishConfig": {
-    "access": "public"
-  },
-  "release": {
-    "analyzeCommits": {
-      "releaseRules": [
-        {
-          "type": "BREAKING",
-          "release": "major"
-        },
-        {
-          "type": "FEATURE",
-          "release": "minor"
-        },
-        {
-          "type": "BUGFIX",
-          "release": "patch"
-        } 
-      ]
-    },
-    "branch": "master"
-  },
+	"publishConfig": {
+		"access": "public"
+	},
+	"release": {
+		"analyzeCommits": {
+			"releaseRules": [
+				{
+					"type": "BREAKING",
+					"release": "major"
+				},
+				{
+					"type": "FEATURE",
+					"release": "minor"
+				},
+				{
+					"type": "BUGFIX",
+					"release": "patch"
+				}
+			]
+		},
+		"branch": "master"
+	},
 	"scripts": {
 		"release": "semantic-release"
 	},
 	"dependencies": {
 		"stylelint-config-recommended-scss": "^3.2.0",
 		"stylelint-config-standard": "^18.2.0",
+		"stylelint-no-unsupported-browser-features": "^3.0.1",
 		"stylelint-scss": "^3.2.0"
 	},
 	"devDependencies": {
 		"semantic-release": "^13.4.1"
 	}
 }
- 
