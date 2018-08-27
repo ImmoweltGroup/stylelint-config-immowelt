@@ -34,7 +34,7 @@
         {
           "type": "BUGFIX",
           "release": "patch"
-        }
+        } 
       ]
     },
     "branch": "master"
