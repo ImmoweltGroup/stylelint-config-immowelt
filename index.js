@@ -1,4 +1,6 @@
-{
+"use strict";
+
+module.exports = {
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-recommended-scss"
@@ -295,4 +297,4 @@
       "ignore": ["flexbox"]
     }]
   }
-}
+};
