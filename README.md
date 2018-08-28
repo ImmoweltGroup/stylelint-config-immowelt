@@ -32,8 +32,7 @@ XML like files (like HTML). That will result in an ```package.json``` like:
   },
   "devDependencies": {
     "@immowelt/stylelint-config-immowelt": "^2.2.0",
-    "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
-    "stylelint": "^9.5.0"
+    "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0"
   },
   "stylelint": {
       "extends": "@immowelt/stylelint-config-immowelt",
