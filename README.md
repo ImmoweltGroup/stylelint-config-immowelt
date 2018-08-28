@@ -20,6 +20,30 @@ Use it in your StyleLint settings.
   "extends": "@immowelt/stylelint-config-immowelt"
 }
 ```
+
+You may also want to use ```@mapbox/stylelint-processor-arbitrary-tags``` for checking CSS inside 
+XML like files (like HTML). That will result in an ```package.json``` like:
+
+```json
+{
+  "scripts": {
+    "test:scss-lint": "stylelint --syntax scss \"src/**/*.{scss,vue}\"",
+    "test:scss-lint:fix": "npm run test:scss-lint -- --fix"
+  },
+  "devDependencies": {
+    "@immowelt/stylelint-config-immowelt": "^2.2.0",
+    "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
+    "stylelint": "^9.5.0"
+  },
+  "stylelint": {
+      "extends": "@immowelt/stylelint-config-immowelt",
+      "processors": [
+        "@mapbox/stylelint-processor-arbitrary-tags"
+      ]
+  }
+}
+```
+
 ## Linting Bundle
 
 * [eslint-config-immowelt-es5](https://github.com/ImmoweltGroup/eslint-config-immowelt-es5)
