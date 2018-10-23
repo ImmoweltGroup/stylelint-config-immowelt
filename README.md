@@ -22,8 +22,7 @@ Use it in your StyleLint settings.
 
 ### Extension
 
-You may also want to use ```@mapbox/stylelint-processor-arbitrary-tags``` for checking CSS inside 
-XML like files (like HTML). That will result in an ```package.json``` like:
+You may also want to use ```@mapbox/stylelint-processor-arbitrary-tags``` for checking CSS inside XML like files (like HTML). That will result in an ```package.json``` like:
 
 ```json
 {
@@ -48,7 +47,7 @@ XML like files (like HTML). That will result in an ```package.json``` like:
 
 * [eslint-config-immowelt-base](https://github.com/ImmoweltGroup/eslint-config-immowelt-base)
 * [eslint-config-immowelt-react](https://github.com/ImmoweltGroup/eslint-config-immowelt-react)
-* [eslint-config-immowelt-vuejs)](https://github.com/ImmoweltGroup/eslint-config-immowelt-vuejs)
+* [eslint-config-immowelt-vuejs](https://github.com/ImmoweltGroup/eslint-config-immowelt-vuejs)
 * [stylelint-config-immowelt](https://github.com/ImmoweltGroup/stylelint-config-immowelt)
 
 ## License
