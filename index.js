@@ -286,6 +286,7 @@ module.exports = {
     "selector-max-universal": 1,
     "selector-no-qualifying-type": true,
     "selector-no-vendor-prefix": true,
+    "shorthand-property-no-redundant-values": true,
     "string-quotes": "double",
     "value-keyword-case": "lower",
     "value-list-comma-newline-after": "never-multi-line",
