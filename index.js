@@ -294,7 +294,8 @@ module.exports = {
     "value-list-comma-space-after": "always",
     "value-no-vendor-prefix": true,
     "plugin/no-unsupported-browser-features": [true, {
-      "ignore": ["flexbox"]
+      "browsers": require("@immowelt/browserslist-config"),
+      "ignore": ["flexbox"],
     }]
   }
 };
