@@ -15,7 +15,14 @@ module.exports = {
     "block-closing-brace-empty-line-before": null,
     "block-closing-brace-newline-after": null,
     "block-opening-brace-space-before": null,
-    "color-named": "never",
+    "color-named": [
+      "never",
+      {
+          "ignore": [
+              "inside-function"
+          ]
+      }
+    ],
     "declaration-block-semicolon-newline-after": "always-multi-line",
     "declaration-block-semicolon-newline-before": "never-multi-line",
     "declaration-block-semicolon-space-after": "always-single-line",
