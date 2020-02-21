@@ -15,21 +15,21 @@ module.exports = {
     "block-closing-brace-empty-line-before": null,
     "block-closing-brace-newline-after": null,
     "block-opening-brace-space-before": null,
-    "color-named": "never",
+    "color-named": [
+      "never",
+      {
+          "ignore": [
+              "inside-function"
+          ]
+      }
+    ],
     "declaration-block-semicolon-newline-after": "always-multi-line",
     "declaration-block-semicolon-newline-before": "never-multi-line",
     "declaration-block-semicolon-space-after": "always-single-line",
     "declaration-empty-line-before": null,
     "declaration-no-important": true,
     "font-family-name-quotes": "always-where-recommended",
-    "font-weight-notation": [
-      "numeric",
-      {
-        "ignore": [
-          "relative"
-        ]
-      }
-    ],
+    "font-weight-notation": "numeric",
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
     "length-zero-no-unit": true,
@@ -38,7 +38,7 @@ module.exports = {
     "media-feature-name-no-vendor-prefix": true,
     "media-feature-parentheses-space-inside": "never",
     "media-feature-range-operator-space-after": "always",
-    "media-feature-range-operator-space-before": "never",
+    "media-feature-range-operator-space-before": "always",
     "no-descending-specificity": null,
     "no-duplicate-selectors": true,
     "no-empty-source": null,
@@ -264,12 +264,7 @@ module.exports = {
     ],
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": null,
-    "scss/dollar-variable-default": [
-      true,
-      {
-        "ignore": "local"
-      }
-    ],
+    "scss/dollar-variable-default": null,
     "selector-attribute-quotes": "always",
     "selector-list-comma-newline-after": "always",
     "selector-list-comma-newline-before": "never-multi-line",
@@ -295,7 +290,7 @@ module.exports = {
     "value-no-vendor-prefix": true,
     "plugin/no-unsupported-browser-features": [true, {
       "browsers": require("@immowelt/browserslist-config"),
-      "ignore": ["flexbox"],
+      "ignore": ["flexbox", "calc", "css3-cursors", "outline", "user-select-none", "css-gradients"],
     }]
   }
 };
