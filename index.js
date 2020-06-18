@@ -42,7 +42,7 @@ module.exports = {
     "no-descending-specificity": null,
     "no-duplicate-selectors": true,
     "no-empty-source": null,
-    "number-leading-zero": "never",
+    "number-leading-zero": "always",
     "media-feature-name-no-unknown": [
       true,
       {
