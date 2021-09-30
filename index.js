@@ -1,13 +1,7 @@
 module.exports = {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-recommended-scss"
-  ],
-  "plugins": [
-    "stylelint-order",
-    "stylelint-no-unsupported-browser-features"
-  ],
-  "rules": {
+  extends: ["stylelint-config-standard", "stylelint-config-recommended-scss"],
+  plugins: ["stylelint-order", "stylelint-no-unsupported-browser-features"],
+  rules: {
     "at-rule-empty-line-before": null,
     "at-rule-name-space-after": "always",
     "at-rule-no-vendor-prefix": true,
@@ -18,10 +12,8 @@ module.exports = {
     "color-named": [
       "never",
       {
-          "ignore": [
-              "inside-function"
-          ]
-      }
+        ignore: ["inside-function"],
+      },
     ],
     "declaration-block-semicolon-newline-after": "always-multi-line",
     "declaration-block-semicolon-newline-before": "never-multi-line",
@@ -46,10 +38,8 @@ module.exports = {
     "media-feature-name-no-unknown": [
       true,
       {
-        "ignoreMediaFeatureNames": [
-          "prefers-reduced-motion"
-        ]
-      }
+        ignoreMediaFeatureNames: ["prefers-reduced-motion"],
+      },
     ],
     "order/properties-order": [
       "position",
@@ -260,7 +250,7 @@ module.exports = {
       "animation-direction",
       "animation-fill-mode",
       "fill",
-      "stroke"
+      "stroke",
     ],
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": null,
@@ -288,9 +278,12 @@ module.exports = {
     "value-list-comma-newline-before": "never-multi-line",
     "value-list-comma-space-after": "always",
     "value-no-vendor-prefix": true,
-    "plugin/no-unsupported-browser-features": [true, {
-      "browsers": require("@immowelt/browserslist-config"),
-      "ignore": ["flexbox", "calc", "css3-cursors", "outline", "user-select-none", "css-gradients"],
-    }]
-  }
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        browsers: require("@immowelt/browserslist-config"),
+        ignore: ["flexbox", "calc", "css3-cursors", "outline", "user-select-none", "css-gradients"],
+      },
+    ],
+  },
 };

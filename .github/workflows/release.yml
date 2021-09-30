@@ -15,6 +15,8 @@ jobs:
           node-version: 14.x
           cache: "yarn"
       - run: yarn install --frozen-lockfile
+      - run: yarn test
+      - run: yarn yarn prettier:check
       - run: yarn release
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}

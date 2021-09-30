@@ -22,7 +22,7 @@ Use it in your StyleLint settings.
 
 ### Extension
 
-You may also want to use ```@mapbox/stylelint-processor-arbitrary-tags``` for checking CSS inside XML like files (like HTML). That will result in an ```package.json``` like:
+You may also want to use `@mapbox/stylelint-processor-arbitrary-tags` for checking CSS inside XML like files (like HTML). That will result in an `package.json` like:
 
 ```json
 {
@@ -35,20 +35,18 @@ You may also want to use ```@mapbox/stylelint-processor-arbitrary-tags``` for ch
     "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0"
   },
   "stylelint": {
-      "extends": "@immowelt/stylelint-config-immowelt",
-      "processors": [
-        "@mapbox/stylelint-processor-arbitrary-tags"
-      ]
+    "extends": "@immowelt/stylelint-config-immowelt",
+    "processors": ["@mapbox/stylelint-processor-arbitrary-tags"]
   }
 }
 ```
 
 ## Linting Bundle
 
-* [eslint-config-immowelt-base](https://github.com/ImmoweltGroup/eslint-config-immowelt-base)
-* [eslint-config-immowelt-react](https://github.com/ImmoweltGroup/eslint-config-immowelt-react)
-* [eslint-config-immowelt-vuejs](https://github.com/ImmoweltGroup/eslint-config-immowelt-vuejs)
-* [stylelint-config-immowelt](https://github.com/ImmoweltGroup/stylelint-config-immowelt)
+- [eslint-config-immowelt-base](https://github.com/ImmoweltGroup/eslint-config-immowelt-base)
+- [eslint-config-immowelt-react](https://github.com/ImmoweltGroup/eslint-config-immowelt-react)
+- [eslint-config-immowelt-vuejs](https://github.com/ImmoweltGroup/eslint-config-immowelt-vuejs)
+- [stylelint-config-immowelt](https://github.com/ImmoweltGroup/stylelint-config-immowelt)
 
 ## License
 
