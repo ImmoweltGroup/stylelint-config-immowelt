@@ -1,0 +1,10 @@
+{
+  "automerge": false,
+  "commitMessagePrefix": "DEV: ",
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies"],
+      "commitMessagePrefix": "PATCH: "
+    }
+  ]
+}
