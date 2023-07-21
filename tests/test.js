@@ -44,7 +44,7 @@ describe("check invalid css", () => {
           severity: "error",
           text: 'Expected "display" to come before "font-size" (order/properties-order)',
         },
-      ])
+      ]),
     );
   });
 });
